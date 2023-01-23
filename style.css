@@ -16,7 +16,7 @@
     --White: hsl(0, 0%, 100%);
 }
 
-.container{
+main{
     min-height: 100vh;
     background-color: var(--Cream);
     display: flex;
@@ -104,9 +104,9 @@ button img{
 
 
 @media only screen and (min-width: 720px) {
-    .container .card{
+    main .card{
         flex-direction: row;
-        width: 50%;
+        max-width: 50%;
         height: 50vh;
     }
 
